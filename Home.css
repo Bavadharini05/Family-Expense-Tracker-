@@ -1,0 +1,83 @@
+/*home*/
+.container {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('C:\Users\DELL\Desktop\ETRACKER\weather\src\images\homeb.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat:inherit;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  padding: 80px;
+  height:fit-content;
+  border-radius:40px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  color: #070606; /* Black text color */
+}
+
+.container:hover {
+  background-color: transparent; /* Slightly brighter on hover */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #f8f4f4; /* Adjusted to have a subtle border */
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background-color: #6d13c2; /* Blue color that complements the background image */
+  color: #fcf9f9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1278e6; /* Slightly darker on hover */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.logout-btn {
+  background-color: #dc3545; /* Red color */
+}
+
+.logout-btn:hover {
+  background-color: #bd2130; /* Slightly darker on hover */
+}
